@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(37,31,134);
+    background: radial-gradient(circle, rgba(37,31,134,1) 1%, rgba(42,42,189,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+
+img {
+    width: 60%;
+    height: 60%;
+}
+
+.logo {
+    width: 70%;
+    height: 70%;
+}
+
+
+
+
+/* barra de navegacion */
+.nav-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    background-color: #5c44c4;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f0f0f0;
+}
+
+/* Estilos main*/
+
+#seccion-principal {
+    text-align: center;
+}
+
+
+.titulo{
+    margin-top: 50px;
+} 
+
+.container1{
+    margin-top: 60px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.text2 {
+    text-align: center;
+    width: 800px;
+    border-color: aquamarine;
+    border-style: double;
+    color: rgb(58, 194, 24);
+    font-weight: bold;
+    
+}
+
+.varios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* Estilos Contacto */
+
+.container{
+    margin-top: 60px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+}
+
+.formulario {
+    text-align: center;
+    justify-content: center;
+    border-color: aquamarine;
+    border-style: double;
+    color: rgb(58, 194, 24);
+    font-weight: bold;
+}
+
+.container2{
+    margin-top: 20px;
+    gap: 8rem;
+    text-align: center;
+}
+
+.direccion{
+    color: aqua;
+    font-size: 20px;
+    border-color: black;
+    border-style: dashed;
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+/* Estilos footer */
+
+.footer {
+    margin-top: 1.5rem;
+    font-size: 15px;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    width: 100%;
+    height: 170px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer a {
+    color: rgb(102, 58, 173);
+}
+
+.p-footer {
+    color: #fff;
+    margin: 5px;
+}
