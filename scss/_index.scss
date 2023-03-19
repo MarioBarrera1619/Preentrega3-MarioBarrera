@@ -1,0 +1,56 @@
+#seccion-principal {
+    margin-top: 80px;
+    text-align: center;
+    
+    .container1{
+    margin-top: 60px;
+    font-weight: bold;
+    align-content: center;
+    
+    .titulo{
+    margin-top: 50px;
+    h1{
+        font-size: 900;
+        font-weight: bolder;
+    }}
+    
+    .logo {
+    align-items: center;
+    }
+    
+    
+    
+    
+    
+    }}
+
+    .varios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        
+        
+
+
+}
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    .text2 {
+    text-align: center;
+    width: 800px;
+    border-color: aquamarine;
+    border-style: double;
+    color: rgb(58, 194, 24);
+    font-weight: bold;
+    
+    }}

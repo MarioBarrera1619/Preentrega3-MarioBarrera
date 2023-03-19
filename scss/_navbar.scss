@@ -1,0 +1,26 @@
+.navbar-brand{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+
+.nav-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item:hover{
+    transform: scale(1.2, 1.2);
+    transition: 200ms;
+}
+
+
+.menu {
+    background-color: #5335db;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f0f0f0;
+}
