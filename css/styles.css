@@ -126,20 +126,26 @@ img {
   margin-top: 70px;
 }
 .section-primary .container {
+  align-content: center;
   text-align: center;
   justify-content: center;
   font-weight: bold;
 }
 .section-primary .container .row {
-  display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: center;
 }
-.section-primary .container .row .btn {
+.section-primary .container .row .card {
+  margin: 50px;
+  width: 380px;
+  height: 500px;
+}
+.section-primary .container .row .card .btn {
   margin: 15px;
   color: #5335db;
 }
-.section-primary .container .row .btn .btn:hover {
+.section-primary .container .row .card .btn .btn:hover {
   transform: scale(1.2, 1.2);
   transition: 200ms;
 }
@@ -152,6 +158,21 @@ img {
 .container .row {
   justify-content: space-between;
   font-style: normal;
+}
+
+/* Estilos Sobre Nosotros */
+.container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.container .nosotros__description__container {
+  margin-top: 20px;
+}
+
+.nosotros__image__container {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {

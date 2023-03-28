@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulte por todos nuestros servicios, Veterinaria con experiencia comprobable en el rubro, atendemos a todas las mascotas, emergencias las 24 horas, locales en Montevideo y en todo el Uruguay">
+    <meta name="keywords" content="Veterinaria, emergencias, perros, gatos, racion, mascotas, peluqueria">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>World Pet Uy</title>
+    <title>World Pet Uy - Servicios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
@@ -58,25 +60,59 @@
         <div class="container">
             <h1 class="text-center text-sm-small">Servicios</h1>
             <h2 class="text-center text-sm-small">Peluqueria</h2>
-            <div class="container1">
-                <div class="row mt-3">
-                    <div class="col-lg-4 mt-3">
-                        <img src="../img/peluqueria1.webp" alt="peluqueria1">
-                    </div>
-                    <div class="col-lg-4 mt-3">
-                        <img src="../img/peluqueria2.webp" alt="peluqueria2">
-                    </div>
-                    <div class="col-lg-4 mt-3">
-                        <img src="../img/peluqueria3.webp" alt="peluqueria3">
-                    </div>
+        <div class="container my-5">
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="../img/peluqueria1.webp" alt="" class="d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Compromiso con tus mascotas</h5>
+                    <p>
+                    Productos de primera calidad
+                    </p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="../img/peluqueria2.webp" alt="" class="d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cuidados capilares</h5>
+                    <p>
+                    Los tratamos con mucho amor
+                    </p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="../img/peluqueria3.webp" alt="" class="d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Todos los estilos</h5>
+                    <p>
+                    Tus mascotas quedan hermosas
+                    </p>
+                </div>
                 </div>
             </div>
+            <a href="#slider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a href="#slider" class="carousel-control-next" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"> Next </span>
+            </a>
+            </div>
         </div>
-
+    </main>
+    <main>
+        
         <div class="container2">
-            <h2>Emergencias</h2>
+            <h2><strong>Emergencias</strong></h2>
             <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi optio numquam, repellendus tempora eligendi consequatur id nihil perspiciatis nulla ad nemo dignissimos mollitia unde blanditiis pariatur cumque, quae ullam totam.</p>
+                <p>Contamos con un servicio de emergencias. Atendemos las 24 horas del dia</p>
             </div>
             <div>
                 <img src="../img/emergencia.jpg" alt="emergencia">

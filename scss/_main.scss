@@ -35,19 +35,25 @@
 .section-primary{
     margin-top: 70px;
     .container{
+        align-content: center;
         text-align: center;
         justify-content: center;
         font-weight: bold;
         .row{
-            display: flex;
             flex-wrap: wrap;
             box-sizing: border-box;
+            justify-content: center;
+            .card{
+                margin: 50px;
+                width: 380px;
+                height: 500px;
             .btn {
                 margin: 15px;
                 color: #5335db;
                 .btn:hover {
                     transform: scale(1.2, 1.2);
                     transition: 200ms;
+                    }
                 }
             }
         }
@@ -65,9 +71,21 @@
     }
 }
 
+/* Estilos Sobre Nosotros */
 
-
-
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    .nosotros__description__container{
+        margin-top: 20px;
+    }
+}
+.nosotros__image__container{
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 
